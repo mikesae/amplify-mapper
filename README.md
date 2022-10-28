@@ -1,1 +1,1 @@
-# amplify-map
+# amplifymap
