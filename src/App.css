@@ -39,13 +39,13 @@
 
 #locations {
   display: inline-block;
-  display: inline;
 }
 
 li {
   padding: 5px;
-  display: inline-block;
   margin: 20px;
+  text-align: left;
+  list-style: none;
 }
 
 #map {
