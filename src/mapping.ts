@@ -3,35 +3,19 @@ import awsconfig from "./aws-exports";
 import geocodedClients from "./data/geocoded-clients.json";
 import { createMap } from "maplibre-gl-js-amplify";
 import { drawPoints } from "maplibre-gl-js-amplify";
+import maplibregl from "maplibre-gl";
 
-const devLocations = [
-    {
-        coordinates: [-73.7897094, 42.8635594],
-        title: "HCS Clifton Park",
-        address: "3828, 300 Clifton Corporate Pkwy suite 385, Clifton Park, NY 12065"
-    },
-    {
-        coordinates: [-71.1611733, 42.4996642],
-        title: "HCS Woburn",
-        address: "100 Sylvan Rd Suite 100, Woburn, MA 01801"
-    },
-    {
-        coordinates: [-85.16122718367347, 35.04238510204082],
-        title: "HCS Chattanooga",
-        address: "2255 Center St #107, Chattanooga, TN 37421"
-    },
-]
-
-function getLocationService(credentials) {
+function getLocationService(credentials: any) {
     return new location({
         credentials: credentials,
         region: awsconfig.aws_project_region,
     });
 }
 
-export function geocode(credentials, address, callback) {
+export function geocode(credentials:any, address:string, callback:any) {
     const service = getLocationService(credentials);
     service.searchPlaceIndexForText({
+        IndexName: "TBD",
         FilterCountries: ["USA"],
         Text: address,
         Language: "en"
@@ -48,8 +32,8 @@ export function geocode(credentials, address, callback) {
     });
 }
 
-function getLocations() {
-    let locations = [];
+function getLocations():any {
+    let locations: { title: string; address: string; coordinates: number[]; }[] = [];
     geocodedClients.forEach((client) => {
         const address = `${client.City}, ${client.State}`;
         locations.push({ title: client.Name, address: address, coordinates: [client.lon, client.lat] });
@@ -57,7 +41,7 @@ function getLocations() {
     return locations;
 }
 
-function addLocations(map) {
+function addLocations(map: maplibregl.Map) {
     map.on("load", function () {
         drawPoints(
             "mySourceName", // Arbitrary source name
@@ -82,7 +66,7 @@ const BOSTON = {
 };
 
 export async function initializeMap() {
-    const map = await createMap({
+    const map:maplibregl.Map = await createMap({
         container: "map", // An HTML Element or HTML element ID to render the map in https://maplibre.org/maplibre-gl-js-docs/api/map/
         center: [BOSTON.longitude, BOSTON.latitude],
         zoom: 10

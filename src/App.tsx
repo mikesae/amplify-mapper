@@ -8,13 +8,12 @@ import { Auth } from "aws-amplify";
 function App() {
     useEffect(() => {
         async function initMap() {
-            return await initializeMap();
+            const map: any = await initializeMap();
         }
 
         initMap();
-        //const map = initMap();
         // return function cleanup() {
-        //   map.remove();
+        //     map.remove();
         // };
     }, []);
 
