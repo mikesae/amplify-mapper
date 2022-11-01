@@ -65,7 +65,7 @@ const BOSTON = {
     longitude: -71.05674
 };
 
-export async function initializeMap() {
+export async function initializeMap(): Promise<maplibregl.Map> {
     const map:maplibregl.Map = await createMap({
         container: "map", // An HTML Element or HTML element ID to render the map in https://maplibre.org/maplibre-gl-js-docs/api/map/
         center: [BOSTON.longitude, BOSTON.latitude],

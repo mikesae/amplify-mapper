@@ -4,16 +4,17 @@ import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect } from "react";
 import { initializeMap } from "./mapping";
 import { Auth } from "aws-amplify";
+import maplibregl from "maplibre-gl";
 
 function App() {
     useEffect(() => {
         async function initMap() {
-            const map: any = await initializeMap();
+            await initializeMap();
         }
 
         initMap();
         // return function cleanup() {
-        //     map.remove();
+        //     mapPromise.then((map) => map.remove());
         // };
     }, []);
 
