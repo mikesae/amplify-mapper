@@ -1,0 +1,7 @@
+$.clients[*].[name,city,state]
+
+$.clients[?(@.city)].[name,city,state]
+
+$.clients[?(@.city && @.city != 'Woburn')].[clientId,name,city,state]
+
+$.clients[?(@.city && @.city != 'Woburn' && !@.clientAttributes )].[clientId,name,city,state]
