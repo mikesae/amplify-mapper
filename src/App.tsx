@@ -1,28 +1,23 @@
 import React from "react";
 import "./App.css";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { useEffect } from "react";
-import { initializeMap } from "./mapping";
-import { Auth } from "aws-amplify";
-import maplibregl from "maplibre-gl";
+import { MapView, View, Flex, Heading } from "@aws-amplify/ui-react";
+
+const BOSTON = {
+    latitude: 42.35866,
+    longitude: -71.05674
+};
 
 function App() {
-    useEffect(() => {
-        async function initMap() {
-            await initializeMap();
-        }
-
-        initMap();
-        // return function cleanup() {
-        //     mapPromise.then((map) => map.remove());
-        // };
-    }, []);
-
     return (
-        <div className='App'>
-            <h1>sLearning Clients</h1>
-            <div id='map'></div>
-        </div>
+        <View className='App'>
+            <Flex>
+                <Heading>sLearning Clients</Heading>
+                <MapView
+                    initialViewState={{ longitude: BOSTON.longitude, latitude: BOSTON.latitude, zoom: 11 }}
+                    style={{ width: "600px", height: "600px" }}></MapView>
+            </Flex>
+        </View>
     );
 }
 
