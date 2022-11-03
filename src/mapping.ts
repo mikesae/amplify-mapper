@@ -88,6 +88,8 @@ function addPointsAndDataSources(map: maplibregl.Map) {
             }
         );
         addDataSources(map);
+        addLayer(map, 'Users', 'Users', '#2D4460');
+        addLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
     })
 }
 
@@ -125,24 +127,17 @@ function addLayer(map: maplibregl.Map, id: string, property: string, color: stri
             'circle-color': color
         }
     });
+    map.setLayoutProperty(id, 'visibility', 'none');
 }
 
 export function showUsers(map: maplibregl.Map) {
-    if (map.getLayer('LoggedIn')) {
-        map.removeLayer('LoggedIn');
-    }
-    if (!map.getLayer('Users')) {
-        addLayer(map, 'Users', 'Users', '#2D4460');
-    }
+    map.setLayoutProperty('Users', 'visibility', 'visible');
+    map.setLayoutProperty('LoggedIn', 'visibility', 'none');
 }
 
 export function showLoggedInUsers(map: maplibregl.Map) {
-    if (map.getLayer('Users')) {
-        map.removeLayer('Users');
-    }
-    if (!map.getLayer('LoggedIn')) {
-        addLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
-    }
+    map.setLayoutProperty('Users', 'visibility', 'none');
+    map.setLayoutProperty('LoggedIn', 'visibility', 'visible');
 }
 
 function addMapControls(map: maplibregl.Map) {
