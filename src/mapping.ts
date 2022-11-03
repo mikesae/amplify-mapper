@@ -35,8 +35,22 @@ export function geocode(credentials:any, address:string, callback:any) {
 function getLocations():any {
     let locations: { title: string; address: string; coordinates: number[]; }[] = [];
     geocodedClients.forEach((client) => {
-        const address = `${client.City}, ${client.State}`;
-        locations.push({ title: client.Name, address: address, coordinates: [client.lon, client.lat] });
+        const address = `${client.City}, ${client.State}<br/><br/>`;
+        let display = address;
+        let loggedIn = client.InAdmin + client.TakingCourses + client.TakingTests;
+        display += `Users: ${client.Users}<br/>`;
+        display += `Logged In: ${loggedIn}<br/>`;
+        display += `In Admin: ${client.InAdmin}<br/>`;
+        display += `Taking Courses: ${client.TakingCourses}<br/>`;
+        display += `Taking Tests: ${client.TakingTests}<br/>`;
+        display += `S3 Enabled: ${client.S3On === "True" ? "Y" : "N"}<br/>`;
+        display += `IUX Enabled : ${client.ITSOn === "True" ? "Y" : "N"}<br/>`;
+
+        locations.push({
+            title: client.Name,
+            address: display,
+            coordinates: [client.lon, client.lat]
+        });
     });
     return locations;
 }

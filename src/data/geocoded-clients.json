@@ -6,7 +6,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 612,
+    "LoggedInUsers": 165,
+    "TakingCourses": 125,
+    "InAdmin": 3,
+    "TakingTests": 122,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 6437,
@@ -15,7 +22,14 @@
     "State": "MD",
     "lat": 39.2908816,
     "lon": -76.610759,
-    "County": ""
+    "County": "",
+    "Users": 703,
+    "LoggedInUsers": 688,
+    "TakingCourses": 165,
+    "InAdmin": 27,
+    "TakingTests": 261,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6389,
@@ -24,7 +38,14 @@
     "State": "IN",
     "lat": 39.7683331,
     "lon": -86.1583502,
-    "County": "Marion County"
+    "County": "Marion County",
+    "Users": 358,
+    "LoggedInUsers": 121,
+    "TakingCourses": 87,
+    "InAdmin": 4,
+    "TakingTests": 29,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6406,
@@ -33,7 +54,14 @@
     "State": "MA",
     "lat": 42.2071434,
     "lon": -72.60765,
-    "County": "Hampden County"
+    "County": "Hampden County",
+    "Users": 730,
+    "LoggedInUsers": 613,
+    "TakingCourses": 91,
+    "InAdmin": 61,
+    "TakingTests": 404,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6407,
@@ -42,7 +70,14 @@
     "State": "WA",
     "lat": 47.0034291,
     "lon": -123.4087692,
-    "County": "Grays Harbor County"
+    "County": "Grays Harbor County",
+    "Users": 407,
+    "LoggedInUsers": 366,
+    "TakingCourses": 131,
+    "InAdmin": 21,
+    "TakingTests": 230,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6438,
@@ -51,7 +86,14 @@
     "State": "FL",
     "lat": 27.9477595,
     "lon": -82.458444,
-    "County": "Hillsborough County"
+    "County": "Hillsborough County",
+    "Users": 700,
+    "LoggedInUsers": 210,
+    "TakingCourses": 12,
+    "InAdmin": 14,
+    "TakingTests": 170,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6439,
@@ -60,7 +102,14 @@
     "State": "AR",
     "lat": 35.0886963,
     "lon": -92.4421011,
-    "County": "Faulkner County"
+    "County": "Faulkner County",
+    "Users": 566,
+    "LoggedInUsers": 28,
+    "TakingCourses": 16,
+    "InAdmin": 2,
+    "TakingTests": 18,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 6465,
@@ -69,7 +118,14 @@
     "State": "WV",
     "lat": 39.0384274,
     "lon": -80.467313,
-    "County": "Lewis County"
+    "County": "Lewis County",
+    "Users": 612,
+    "LoggedInUsers": 73,
+    "TakingCourses": 2,
+    "InAdmin": 5,
+    "TakingTests": 65,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6466,
@@ -78,7 +134,14 @@
     "State": "PA",
     "lat": 40.9436303,
     "lon": -78.971078,
-    "County": "Jefferson County"
+    "County": "Jefferson County",
+    "Users": 1017,
+    "LoggedInUsers": 833,
+    "TakingCourses": 766,
+    "InAdmin": 74,
+    "TakingTests": 8,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 3197,
@@ -87,7 +150,14 @@
     "State": "CO",
     "lat": 39.5360997,
     "lon": -104.8963682,
-    "County": "Douglas County"
+    "County": "Douglas County",
+    "Users": 834,
+    "LoggedInUsers": 533,
+    "TakingCourses": 245,
+    "InAdmin": 26,
+    "TakingTests": 181,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6482,
@@ -96,7 +166,14 @@
     "State": "FL",
     "lat": 27.7703796,
     "lon": -82.6695085,
-    "County": "Pinellas County"
+    "County": "Pinellas County",
+    "Users": 965,
+    "LoggedInUsers": 86,
+    "TakingCourses": 33,
+    "InAdmin": 6,
+    "TakingTests": 44,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8296,
@@ -105,7 +182,14 @@
     "State": "UT",
     "lat": 41.2230048,
     "lon": -111.9738429,
-    "County": "Weber County"
+    "County": "Weber County",
+    "Users": 192,
+    "LoggedInUsers": 161,
+    "TakingCourses": 43,
+    "InAdmin": 11,
+    "TakingTests": 140,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 6636,
@@ -114,7 +198,14 @@
     "State": "TX",
     "lat": 30.7235263,
     "lon": -95.5507771,
-    "County": "Walker County"
+    "County": "Walker County",
+    "Users": 206,
+    "LoggedInUsers": 115,
+    "TakingCourses": 80,
+    "InAdmin": 8,
+    "TakingTests": 23,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 3135,
@@ -123,7 +214,14 @@
     "State": "WV",
     "lat": 39.6296809,
     "lon": -79.9559437,
-    "County": "Monongalia County"
+    "County": "Monongalia County",
+    "Users": 482,
+    "LoggedInUsers": 477,
+    "TakingCourses": 467,
+    "InAdmin": 47,
+    "TakingTests": 271,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 3171,
@@ -132,7 +230,14 @@
     "State": "VA",
     "lat": 36.9775016,
     "lon": -76.42977,
-    "County": "Newport News"
+    "County": "Newport News",
+    "Users": 288,
+    "LoggedInUsers": 144,
+    "TakingCourses": 23,
+    "InAdmin": 12,
+    "TakingTests": 129,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 3119,
@@ -141,7 +246,14 @@
     "State": "CT",
     "lat": 41.6796456,
     "lon": -72.78834682,
-    "County": "Hartford County"
+    "County": "Hartford County",
+    "Users": 661,
+    "LoggedInUsers": 158,
+    "TakingCourses": 80,
+    "InAdmin": 3,
+    "TakingTests": 91,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6396,
@@ -150,7 +262,14 @@
     "State": "NY",
     "lat": 42.0987125,
     "lon": -75.9125262,
-    "County": "Broome County"
+    "County": "Broome County",
+    "Users": 332,
+    "LoggedInUsers": 215,
+    "TakingCourses": 36,
+    "InAdmin": 10,
+    "TakingTests": 124,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 6760,
@@ -159,7 +278,14 @@
     "State": "NM",
     "lat": 32.9442913,
     "lon": -103.3484348,
-    "County": "Lea County"
+    "County": "Lea County",
+    "Users": 174,
+    "LoggedInUsers": 59,
+    "TakingCourses": 9,
+    "InAdmin": 4,
+    "TakingTests": 24,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 3157,
@@ -168,7 +294,14 @@
     "State": "GA",
     "lat": 31.5782062,
     "lon": -84.1556809,
-    "County": "Dougherty County"
+    "County": "Dougherty County",
+    "Users": 619,
+    "LoggedInUsers": 241,
+    "TakingCourses": 175,
+    "InAdmin": 24,
+    "TakingTests": 62,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 6373,
@@ -177,7 +310,14 @@
     "State": "MD",
     "lat": 39.2908816,
     "lon": -76.610759,
-    "County": ""
+    "County": "",
+    "Users": 156,
+    "LoggedInUsers": 88,
+    "TakingCourses": 49,
+    "InAdmin": 4,
+    "TakingTests": 21,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 6490,
@@ -186,7 +326,14 @@
     "State": "SD",
     "lat": 44.490817,
     "lon": -103.85937,
-    "County": "Lawrence County"
+    "County": "Lawrence County",
+    "Users": 527,
+    "LoggedInUsers": 42,
+    "TakingCourses": 11,
+    "InAdmin": 2,
+    "TakingTests": 15,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 3175,
@@ -195,7 +342,14 @@
     "State": "NJ",
     "lat": 40.092024,
     "lon": -74.21219646,
-    "County": "Ocean County"
+    "County": "Ocean County",
+    "Users": 516,
+    "LoggedInUsers": 335,
+    "TakingCourses": 244,
+    "InAdmin": 10,
+    "TakingTests": 154,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6450,
@@ -204,7 +358,14 @@
     "State": "KY",
     "lat": 38.4784144,
     "lon": -82.6379387,
-    "County": "Boyd County"
+    "County": "Boyd County",
+    "Users": 209,
+    "LoggedInUsers": 192,
+    "TakingCourses": 86,
+    "InAdmin": 13,
+    "TakingTests": 151,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6455,
@@ -213,7 +374,14 @@
     "State": "LA",
     "lat": 32.4707862,
     "lon": -93.7559378,
-    "County": "Caddo Parish"
+    "County": "Caddo Parish",
+    "Users": 174,
+    "LoggedInUsers": 33,
+    "TakingCourses": 26,
+    "InAdmin": 2,
+    "TakingTests": 3,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 3044,
@@ -222,7 +390,14 @@
     "State": "MA",
     "lat": 42.2064195,
     "lon": -71.005067,
-    "County": "Norfolk County"
+    "County": "Norfolk County",
+    "Users": 706,
+    "LoggedInUsers": 148,
+    "TakingCourses": 74,
+    "InAdmin": 5,
+    "TakingTests": 22,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 3111,
@@ -231,7 +406,14 @@
     "State": "PA",
     "lat": 39.9405903,
     "lon": -77.6598624,
-    "County": "Franklin County"
+    "County": "Franklin County",
+    "Users": 184,
+    "LoggedInUsers": 25,
+    "TakingCourses": 7,
+    "InAdmin": 1,
+    "TakingTests": 4,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 3127,
@@ -240,7 +422,14 @@
     "State": "OH",
     "lat": 41.6529143,
     "lon": -83.5378173,
-    "County": "Lucas County"
+    "County": "Lucas County",
+    "Users": 788,
+    "LoggedInUsers": 661,
+    "TakingCourses": 224,
+    "InAdmin": 6,
+    "TakingTests": 165,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 6529,
@@ -249,7 +438,14 @@
     "State": "CO",
     "lat": 38.2544472,
     "lon": -104.609141,
-    "County": "Pueblo County"
+    "County": "Pueblo County",
+    "Users": 783,
+    "LoggedInUsers": 148,
+    "TakingCourses": 50,
+    "InAdmin": 7,
+    "TakingTests": 121,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6532,
@@ -258,7 +454,14 @@
     "State": "CO",
     "lat": 38.2544472,
     "lon": -104.609141,
-    "County": "Pueblo County"
+    "County": "Pueblo County",
+    "Users": 607,
+    "LoggedInUsers": 109,
+    "TakingCourses": 90,
+    "InAdmin": 1,
+    "TakingTests": 19,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6539,
@@ -267,7 +470,14 @@
     "State": "PA",
     "lat": 40.03813,
     "lon": -76.3056686,
-    "County": "Lancaster County"
+    "County": "Lancaster County",
+    "Users": 539,
+    "LoggedInUsers": 318,
+    "TakingCourses": 133,
+    "InAdmin": 25,
+    "TakingTests": 289,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6548,
@@ -276,7 +486,14 @@
     "State": "MN",
     "lat": 46.4424614,
     "lon": -95.1361386,
-    "County": "Wadena County"
+    "County": "Wadena County",
+    "Users": 872,
+    "LoggedInUsers": 52,
+    "TakingCourses": 37,
+    "InAdmin": 3,
+    "TakingTests": 7,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6613,
@@ -285,7 +502,14 @@
     "State": "MI",
     "lat": 42.2465036,
     "lon": -84.4016963,
-    "County": "Jackson County"
+    "County": "Jackson County",
+    "Users": 854,
+    "LoggedInUsers": 725,
+    "TakingCourses": 485,
+    "InAdmin": 72,
+    "TakingTests": 101,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6615,
@@ -294,7 +518,14 @@
     "State": "NY",
     "lat": 44.4406028,
     "lon": -73.6881949,
-    "County": "Essex County"
+    "County": "Essex County",
+    "Users": 169,
+    "LoggedInUsers": 121,
+    "TakingCourses": 88,
+    "InAdmin": 12,
+    "TakingTests": 62,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6638,
@@ -303,7 +534,14 @@
     "State": "NH",
     "lat": 43.5278546,
     "lon": -71.470351,
-    "County": "Belknap County"
+    "County": "Belknap County",
+    "Users": 410,
+    "LoggedInUsers": 114,
+    "TakingCourses": 50,
+    "InAdmin": 4,
+    "TakingTests": 15,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6650,
@@ -312,7 +550,14 @@
     "State": "OH",
     "lat": 39.9622601,
     "lon": -83.0007065,
-    "County": "Franklin County"
+    "County": "Franklin County",
+    "Users": 523,
+    "LoggedInUsers": 345,
+    "TakingCourses": 113,
+    "InAdmin": 10,
+    "TakingTests": 331,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6708,
@@ -321,7 +566,14 @@
     "State": "NJ",
     "lat": 40.9452911,
     "lon": -74.0735899,
-    "County": "Bergen County"
+    "County": "Bergen County",
+    "Users": 448,
+    "LoggedInUsers": 58,
+    "TakingCourses": 55,
+    "InAdmin": 1,
+    "TakingTests": 19,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 7352,
@@ -330,7 +582,14 @@
     "State": "WI",
     "lat": 43.0116784,
     "lon": -88.2314813,
-    "County": "Waukesha County"
+    "County": "Waukesha County",
+    "Users": 86,
+    "LoggedInUsers": 72,
+    "TakingCourses": 30,
+    "InAdmin": 6,
+    "TakingTests": 58,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6681,
@@ -339,7 +598,14 @@
     "State": "CA",
     "lat": 36.9622745,
     "lon": -120.0594685,
-    "County": "Madera County"
+    "County": "Madera County",
+    "Users": 725,
+    "LoggedInUsers": 152,
+    "TakingCourses": 82,
+    "InAdmin": 3,
+    "TakingTests": 1,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7417,
@@ -348,7 +614,14 @@
     "State": "WY",
     "lat": 41.311367,
     "lon": -105.591101,
-    "County": "Albany County"
+    "County": "Albany County",
+    "Users": 410,
+    "LoggedInUsers": 118,
+    "TakingCourses": 60,
+    "InAdmin": 11,
+    "TakingTests": 15,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 7446,
@@ -357,7 +630,14 @@
     "State": "AL",
     "lat": 30.6867339,
     "lon": -88.0848929,
-    "County": "Mobile County"
+    "County": "Mobile County",
+    "Users": 650,
+    "LoggedInUsers": 13,
+    "TakingCourses": 10,
+    "InAdmin": 0,
+    "TakingTests": 4,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7447,
@@ -366,7 +646,14 @@
     "State": "IA",
     "lat": 41.9758872,
     "lon": -91.6704053,
-    "County": "Linn County"
+    "County": "Linn County",
+    "Users": 871,
+    "LoggedInUsers": 17,
+    "TakingCourses": 15,
+    "InAdmin": 1,
+    "TakingTests": 10,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 7450,
@@ -375,7 +662,14 @@
     "State": "SC",
     "lat": 34.1779495,
     "lon": -82.3792463,
-    "County": "Abbeville County"
+    "County": "Abbeville County",
+    "Users": 485,
+    "LoggedInUsers": 431,
+    "TakingCourses": 323,
+    "InAdmin": 12,
+    "TakingTests": 306,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7473,
@@ -384,7 +678,14 @@
     "State": "IN",
     "lat": 38.3914228,
     "lon": -86.9308719,
-    "County": "Dubois County"
+    "County": "Dubois County",
+    "Users": 210,
+    "LoggedInUsers": 21,
+    "TakingCourses": 4,
+    "InAdmin": 0,
+    "TakingTests": 4,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7478,
@@ -393,7 +694,14 @@
     "State": "MS",
     "lat": 31.6446155,
     "lon": -89.5559859,
-    "County": "Covington County"
+    "County": "Covington County",
+    "Users": 745,
+    "LoggedInUsers": 96,
+    "TakingCourses": 71,
+    "InAdmin": 2,
+    "TakingTests": 2,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7580,
@@ -402,7 +710,14 @@
     "State": "WI",
     "lat": 44.9751273,
     "lon": -92.7556281,
-    "County": "Saint Croix County"
+    "County": "Saint Croix County",
+    "Users": 850,
+    "LoggedInUsers": 212,
+    "TakingCourses": 2,
+    "InAdmin": 10,
+    "TakingTests": 101,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 6758,
@@ -411,7 +726,14 @@
     "State": "MD",
     "lat": 39.2908816,
     "lon": -76.610759,
-    "County": ""
+    "County": "",
+    "Users": 681,
+    "LoggedInUsers": 34,
+    "TakingCourses": 5,
+    "InAdmin": 1,
+    "TakingTests": 18,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 3133,
@@ -420,7 +742,14 @@
     "State": "TX",
     "lat": 30.6743643,
     "lon": -96.3699632,
-    "County": "Brazos County"
+    "County": "Brazos County",
+    "Users": 755,
+    "LoggedInUsers": 732,
+    "TakingCourses": 204,
+    "InAdmin": 51,
+    "TakingTests": 161,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 3134,
@@ -429,7 +758,14 @@
     "State": "CT",
     "lat": 41.3954565,
     "lon": -73.47449035,
-    "County": "Fairfield County"
+    "County": "Fairfield County",
+    "Users": 116,
+    "LoggedInUsers": 54,
+    "TakingCourses": 19,
+    "InAdmin": 5,
+    "TakingTests": 38,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7600,
@@ -438,7 +774,14 @@
     "State": "SC",
     "lat": 33.4293486,
     "lon": -79.1215912,
-    "County": "Georgetown County"
+    "County": "Georgetown County",
+    "Users": 985,
+    "LoggedInUsers": 413,
+    "TakingCourses": 177,
+    "InAdmin": 16,
+    "TakingTests": 326,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7609,
@@ -447,7 +790,14 @@
     "State": "MO",
     "lat": 37.7275127,
     "lon": -89.8645455,
-    "County": "Perry County"
+    "County": "Perry County",
+    "Users": 295,
+    "LoggedInUsers": 259,
+    "TakingCourses": 150,
+    "InAdmin": 25,
+    "TakingTests": 160,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7611,
@@ -456,7 +806,14 @@
     "State": "MD",
     "lat": 39.4368436,
     "lon": -76.6187044,
-    "County": "Baltimore County"
+    "County": "Baltimore County",
+    "Users": 771,
+    "LoggedInUsers": 169,
+    "TakingCourses": 91,
+    "InAdmin": 11,
+    "TakingTests": 121,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7633,
@@ -465,7 +822,14 @@
     "State": "OK",
     "lat": 35.5156056,
     "lon": -98.9673069,
-    "County": "Custer County"
+    "County": "Custer County",
+    "Users": 977,
+    "LoggedInUsers": 810,
+    "TakingCourses": 785,
+    "InAdmin": 32,
+    "TakingTests": 753,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 7634,
@@ -474,7 +838,14 @@
     "State": "MD",
     "lat": 39.004607,
     "lon": -76.8756838,
-    "County": "Prince George's County"
+    "County": "Prince George's County",
+    "Users": 164,
+    "LoggedInUsers": 8,
+    "TakingCourses": 5,
+    "InAdmin": 0,
+    "TakingTests": 4,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 7647,
@@ -483,7 +854,14 @@
     "State": "NJ",
     "lat": 40.6639916,
     "lon": -74.2107006,
-    "County": "Union County"
+    "County": "Union County",
+    "Users": 636,
+    "LoggedInUsers": 610,
+    "TakingCourses": 109,
+    "InAdmin": 6,
+    "TakingTests": 597,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7650,
@@ -492,7 +870,14 @@
     "State": "MO",
     "lat": 37.7275127,
     "lon": -89.8645455,
-    "County": "Perry County"
+    "County": "Perry County",
+    "Users": 541,
+    "LoggedInUsers": 113,
+    "TakingCourses": 22,
+    "InAdmin": 11,
+    "TakingTests": 41,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 7660,
@@ -501,7 +886,14 @@
     "State": "OR",
     "lat": 45.6015056,
     "lon": -121.1841587,
-    "County": "Wasco County"
+    "County": "Wasco County",
+    "Users": 446,
+    "LoggedInUsers": 392,
+    "TakingCourses": 360,
+    "InAdmin": 19,
+    "TakingTests": 39,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 7661,
@@ -510,7 +902,14 @@
     "State": "OK",
     "lat": 35.1511643,
     "lon": -96.4935513,
-    "County": "Seminole County"
+    "County": "Seminole County",
+    "Users": 950,
+    "LoggedInUsers": 437,
+    "TakingCourses": 410,
+    "InAdmin": 21,
+    "TakingTests": 30,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7711,
@@ -519,7 +918,14 @@
     "State": "OH",
     "lat": 40.5545071,
     "lon": -81.9179198,
-    "County": "Holmes County"
+    "County": "Holmes County",
+    "Users": 887,
+    "LoggedInUsers": 257,
+    "TakingCourses": 179,
+    "InAdmin": 5,
+    "TakingTests": 177,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7722,
@@ -528,7 +934,14 @@
     "State": "WY",
     "lat": 41.5860557,
     "lon": -109.2194544,
-    "County": "Sweetwater County"
+    "County": "Sweetwater County",
+    "Users": 929,
+    "LoggedInUsers": 204,
+    "TakingCourses": 67,
+    "InAdmin": 20,
+    "TakingTests": 26,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 7798,
@@ -537,7 +950,14 @@
     "State": "TX",
     "lat": 31.4649685,
     "lon": -100.4405094,
-    "County": "Tom Green County"
+    "County": "Tom Green County",
+    "Users": 807,
+    "LoggedInUsers": 516,
+    "TakingCourses": 232,
+    "InAdmin": 25,
+    "TakingTests": 108,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7891,
@@ -546,7 +966,14 @@
     "State": "CA",
     "lat": 38.5810606,
     "lon": -121.493895,
-    "County": "Sacramento County"
+    "County": "Sacramento County",
+    "Users": 120,
+    "LoggedInUsers": 44,
+    "TakingCourses": 10,
+    "InAdmin": 2,
+    "TakingTests": 15,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7969,
@@ -555,7 +982,14 @@
     "State": "IA",
     "lat": 41.7320796,
     "lon": -93.605092,
-    "County": "Polk County"
+    "County": "Polk County",
+    "Users": 727,
+    "LoggedInUsers": 603,
+    "TakingCourses": 211,
+    "InAdmin": 18,
+    "TakingTests": 319,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8036,
@@ -564,7 +998,14 @@
     "State": "NJ",
     "lat": 40.9452911,
     "lon": -74.0735899,
-    "County": "Bergen County"
+    "County": "Bergen County",
+    "Users": 620,
+    "LoggedInUsers": 384,
+    "TakingCourses": 226,
+    "InAdmin": 26,
+    "TakingTests": 261,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8234,
@@ -573,7 +1014,14 @@
     "State": "PA",
     "lat": 40.86108,
     "lon": -79.895197,
-    "County": "Butler County"
+    "County": "Butler County",
+    "Users": 797,
+    "LoggedInUsers": 366,
+    "TakingCourses": 318,
+    "InAdmin": 3,
+    "TakingTests": 14,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 7027,
@@ -582,7 +1030,14 @@
     "State": "TN",
     "lat": 35.8460396,
     "lon": -86.3921096,
-    "County": "Rutherford County"
+    "County": "Rutherford County",
+    "Users": 863,
+    "LoggedInUsers": 414,
+    "TakingCourses": 128,
+    "InAdmin": 33,
+    "TakingTests": 235,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 7028,
@@ -591,7 +1046,14 @@
     "State": "NJ",
     "lat": 41.0003754,
     "lon": -73.9304141,
-    "County": "Bergen County"
+    "County": "Bergen County",
+    "Users": 483,
+    "LoggedInUsers": 357,
+    "TakingCourses": 67,
+    "InAdmin": 14,
+    "TakingTests": 189,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8311,
@@ -600,7 +1062,14 @@
     "State": "NC",
     "lat": 35.70967995,
     "lon": -78.80406462,
-    "County": "Wake County"
+    "County": "Wake County",
+    "Users": 121,
+    "LoggedInUsers": 95,
+    "TakingCourses": 62,
+    "InAdmin": 6,
+    "TakingTests": 84,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8324,
@@ -609,7 +1078,14 @@
     "State": "AL",
     "lat": 34.729847,
     "lon": -86.5859011,
-    "County": "Madison County"
+    "County": "Madison County",
+    "Users": 126,
+    "LoggedInUsers": 32,
+    "TakingCourses": 30,
+    "InAdmin": 0,
+    "TakingTests": 22,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8342,
@@ -618,7 +1094,14 @@
     "State": "PA",
     "lat": 41.0659243,
     "lon": -75.3199055,
-    "County": "Monroe County"
+    "County": "Monroe County",
+    "Users": 458,
+    "LoggedInUsers": 201,
+    "TakingCourses": 66,
+    "InAdmin": 18,
+    "TakingTests": 148,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8346,
@@ -627,7 +1110,14 @@
     "State": "NY",
     "lat": 42.0987125,
     "lon": -75.9125262,
-    "County": "Broome County"
+    "County": "Broome County",
+    "Users": 876,
+    "LoggedInUsers": 481,
+    "TakingCourses": 221,
+    "InAdmin": 19,
+    "TakingTests": 404,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8347,
@@ -636,7 +1126,14 @@
     "State": "CO",
     "lat": 39.2465755,
     "lon": -106.2953621,
-    "County": "Lake County"
+    "County": "Lake County",
+    "Users": 895,
+    "LoggedInUsers": 232,
+    "TakingCourses": 146,
+    "InAdmin": 4,
+    "TakingTests": 190,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8415,
@@ -645,7 +1142,14 @@
     "State": "OK",
     "lat": 35.4729886,
     "lon": -97.5170536,
-    "County": "Oklahoma County"
+    "County": "Oklahoma County",
+    "Users": 421,
+    "LoggedInUsers": 235,
+    "TakingCourses": 79,
+    "InAdmin": 18,
+    "TakingTests": 28,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8486,
@@ -654,7 +1158,14 @@
     "State": "NY",
     "lat": 42.824484,
     "lon": -75.548657,
-    "County": "Madison County"
+    "County": "Madison County",
+    "Users": 859,
+    "LoggedInUsers": 859,
+    "TakingCourses": 859,
+    "InAdmin": 17,
+    "TakingTests": 438,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8527,
@@ -663,7 +1174,14 @@
     "State": "MA",
     "lat": 42.0834335,
     "lon": -71.0183787,
-    "County": "Plymouth County"
+    "County": "Plymouth County",
+    "Users": 760,
+    "LoggedInUsers": 600,
+    "TakingCourses": 306,
+    "InAdmin": 60,
+    "TakingTests": 540,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8559,
@@ -672,7 +1190,14 @@
     "State": "CA",
     "lat": 38.0138934,
     "lon": -122.1338674,
-    "County": "Contra Costa County"
+    "County": "Contra Costa County",
+    "Users": 813,
+    "LoggedInUsers": 357,
+    "TakingCourses": 249,
+    "InAdmin": 28,
+    "TakingTests": 128,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8595,
@@ -681,7 +1206,14 @@
     "State": "MD",
     "lat": 39.5437551,
     "lon": -76.1062549,
-    "County": "Harford County"
+    "County": "Harford County",
+    "Users": 365,
+    "LoggedInUsers": 302,
+    "TakingCourses": 184,
+    "InAdmin": 15,
+    "TakingTests": 12,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8601,
@@ -690,7 +1222,14 @@
     "State": "MT",
     "lat": 45.2141249,
     "lon": -112.6346079,
-    "County": "Beaverhead County"
+    "County": "Beaverhead County",
+    "Users": 458,
+    "LoggedInUsers": 137,
+    "TakingCourses": 112,
+    "InAdmin": 5,
+    "TakingTests": 93,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8629,
@@ -699,7 +1238,14 @@
     "State": "IL",
     "lat": 41.8755616,
     "lon": -87.6244212,
-    "County": "Cook County"
+    "County": "Cook County",
+    "Users": 502,
+    "LoggedInUsers": 461,
+    "TakingCourses": 414,
+    "InAdmin": 13,
+    "TakingTests": 308,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8749,
@@ -708,7 +1254,14 @@
     "State": "MN",
     "lat": 48.7744263,
     "lon": -96.946447,
-    "County": "Kittson County"
+    "County": "Kittson County",
+    "Users": 938,
+    "LoggedInUsers": 28,
+    "TakingCourses": 26,
+    "InAdmin": 2,
+    "TakingTests": 25,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8903,
@@ -717,7 +1270,14 @@
     "State": "NC",
     "lat": 36.2165362,
     "lon": -81.6746158,
-    "County": "Watauga County"
+    "County": "Watauga County",
+    "Users": 936,
+    "LoggedInUsers": 299,
+    "TakingCourses": 245,
+    "InAdmin": 17,
+    "TakingTests": 278,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8904,
@@ -726,7 +1286,14 @@
     "State": "NC",
     "lat": 36.145965,
     "lon": -81.1606401,
-    "County": "Wilkes County"
+    "County": "Wilkes County",
+    "Users": 664,
+    "LoggedInUsers": 571,
+    "TakingCourses": 85,
+    "InAdmin": 39,
+    "TakingTests": 468,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8915,
@@ -735,7 +1302,14 @@
     "State": "IA",
     "lat": 40.79581275,
     "lon": -91.11472216,
-    "County": "Des Moines County"
+    "County": "Des Moines County",
+    "Users": 240,
+    "LoggedInUsers": 228,
+    "TakingCourses": 177,
+    "InAdmin": 9,
+    "TakingTests": 141,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8921,
@@ -744,7 +1318,14 @@
     "State": "IA",
     "lat": 42.3616501,
     "lon": -92.7685327,
-    "County": "Grundy County"
+    "County": "Grundy County",
+    "Users": 537,
+    "LoggedInUsers": 520,
+    "TakingCourses": 156,
+    "InAdmin": 26,
+    "TakingTests": 338,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8908,
@@ -753,7 +1334,14 @@
     "State": "VA",
     "lat": 38.4733823,
     "lon": -77.9961275,
-    "County": "Culpeper County"
+    "County": "Culpeper County",
+    "Users": 347,
+    "LoggedInUsers": 117,
+    "TakingCourses": 37,
+    "InAdmin": 5,
+    "TakingTests": 9,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8925,
@@ -762,7 +1350,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 861,
+    "LoggedInUsers": 749,
+    "TakingCourses": 396,
+    "InAdmin": 44,
+    "TakingTests": 569,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 8926,
@@ -771,7 +1366,14 @@
     "State": "NY",
     "lat": 40.6526006,
     "lon": -73.9497211,
-    "County": ""
+    "County": "Queens County",
+    "Users": 427,
+    "LoggedInUsers": 273,
+    "TakingCourses": 21,
+    "InAdmin": 5,
+    "TakingTests": 38,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8929,
@@ -780,7 +1382,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 418,
+    "LoggedInUsers": 288,
+    "TakingCourses": 132,
+    "InAdmin": 14,
+    "TakingTests": 95,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8940,
@@ -789,7 +1398,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 373,
+    "LoggedInUsers": 26,
+    "TakingCourses": 22,
+    "InAdmin": 1,
+    "TakingTests": 20,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8943,
@@ -798,7 +1414,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 128,
+    "LoggedInUsers": 34,
+    "TakingCourses": 19,
+    "InAdmin": 0,
+    "TakingTests": 32,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8945,
@@ -807,7 +1430,14 @@
     "State": "KY",
     "lat": 37.3280037,
     "lon": -87.4986989,
-    "County": "Hopkins County"
+    "County": "Hopkins County",
+    "Users": 180,
+    "LoggedInUsers": 91,
+    "TakingCourses": 16,
+    "InAdmin": 1,
+    "TakingTests": 72,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8950,
@@ -816,7 +1446,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 184,
+    "LoggedInUsers": 88,
+    "TakingCourses": 51,
+    "InAdmin": 8,
+    "TakingTests": 8,
+    "ITSOn": "False",
+    "S3On": "False"
   },
   {
     "Id": 8958,
@@ -825,7 +1462,14 @@
     "State": "KY",
     "lat": 37.3280037,
     "lon": -87.4986989,
-    "County": "Hopkins County"
+    "County": "Hopkins County",
+    "Users": 381,
+    "LoggedInUsers": 95,
+    "TakingCourses": 41,
+    "InAdmin": 8,
+    "TakingTests": 1,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8965,
@@ -834,7 +1478,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 398,
+    "LoggedInUsers": 35,
+    "TakingCourses": 3,
+    "InAdmin": 3,
+    "TakingTests": 4,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 8966,
@@ -843,7 +1494,14 @@
     "State": "MA",
     "lat": 42.3554334,
     "lon": -71.060511,
-    "County": "Suffolk County"
+    "County": "Suffolk County",
+    "Users": 592,
+    "LoggedInUsers": 11,
+    "TakingCourses": 6,
+    "InAdmin": 0,
+    "TakingTests": 0,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 6371,
@@ -852,7 +1510,14 @@
     "State": "OH",
     "lat": 39.9403453,
     "lon": -82.0131924,
-    "County": "Muskingum County"
+    "County": "Muskingum County",
+    "Users": 242,
+    "LoggedInUsers": 106,
+    "TakingCourses": 85,
+    "InAdmin": 3,
+    "TakingTests": 36,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6690,
@@ -861,7 +1526,14 @@
     "State": "NM",
     "lat": 35.0841034,
     "lon": -106.650985,
-    "County": "Bernalillo County"
+    "County": "Bernalillo County",
+    "Users": 207,
+    "LoggedInUsers": 155,
+    "TakingCourses": 91,
+    "InAdmin": 13,
+    "TakingTests": 41,
+    "ITSOn": "True",
+    "S3On": "True"
   },
   {
     "Id": 6691,
@@ -870,7 +1542,14 @@
     "State": "VT",
     "lat": 43.6063341,
     "lon": -72.9802745,
-    "County": "Rutland County"
+    "County": "Rutland County",
+    "Users": 163,
+    "LoggedInUsers": 148,
+    "TakingCourses": 127,
+    "InAdmin": 7,
+    "TakingTests": 51,
+    "ITSOn": "False",
+    "S3On": "True"
   },
   {
     "Id": 6726,
@@ -879,7 +1558,14 @@
     "State": "NJ",
     "lat": 40.214297,
     "lon": -74.065706,
-    "County": "Monmouth County"
+    "County": "Monmouth County",
+    "Users": 1011,
+    "LoggedInUsers": 252,
+    "TakingCourses": 45,
+    "InAdmin": 5,
+    "TakingTests": 60,
+    "ITSOn": "True",
+    "S3On": "False"
   },
   {
     "Id": 8291,
@@ -888,6 +1574,13 @@
     "State": "PA",
     "lat": 39.9809452,
     "lon": -75.3085201,
-    "County": "Delaware County"
+    "County": "Delaware County",
+    "Users": 593,
+    "LoggedInUsers": 569,
+    "TakingCourses": 170,
+    "InAdmin": 5,
+    "TakingTests": 125,
+    "ITSOn": "True",
+    "S3On": "True"
   }
 ]
