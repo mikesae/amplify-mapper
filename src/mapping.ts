@@ -4,6 +4,7 @@ import geocodedClients from "./data/geocoded-clients.json";
 import { createMap } from "maplibre-gl-js-amplify";
 import { drawPoints } from "maplibre-gl-js-amplify";
 import maplibregl from "maplibre-gl";
+import usersImage from './assets/users.png';
 
 function getLocationService(credentials: any) {
     return new location({
@@ -71,6 +72,12 @@ function getClientFeatures(): any {
     return features;
 }
 
+function addCustomImages(map: maplibregl.Map) {
+    const image = new Image(980, 736);
+    image.src = usersImage;
+    map.addImage('users', image);
+}
+
 function addPointsAndDataSources(map: maplibregl.Map) {
     map.on("load", function () {
         drawPoints(
@@ -88,8 +95,11 @@ function addPointsAndDataSources(map: maplibregl.Map) {
             }
         );
         addDataSources(map);
-        addLayer(map, 'Users', 'Users', '#2D4460');
-        addLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
+        //addGraduatedSymbolLayer(map, 'Users', 'Users', '#2D4460', 'City small scale/large other capital');
+        //addGraduatedSymbolLayer(map, 'LoggedIn', 'LoggedIn', '#627388', 'City small scale/x large admin2 capital');
+        addGraduatedCircleLayer(map, 'Users', 'Users', '#2D4460');
+        addGraduatedCircleLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
+        //addCustomImages(map);
     })
 }
 
@@ -108,7 +118,7 @@ function addDataSources(map: maplibregl.Map) {
     });
 }
 
-function addLayer(map: maplibregl.Map, id: string, property: string, color: string) {
+function addGraduatedCircleLayer(map: maplibregl.Map, id: string, property: string, color: string) {
     map.addLayer({
         'id': id,
         'type': 'circle',
@@ -125,6 +135,29 @@ function addLayer(map: maplibregl.Map, id: string, property: string, color: stri
                 ]
             },
             'circle-color': color
+        }
+    });
+    map.setLayoutProperty(id, 'visibility', 'none');
+}
+
+function addGraduatedSymbolLayer(map: maplibregl.Map, id: string, property: string, color: string, iconName: string) {
+    map.addLayer({
+        id: id,
+        type: 'symbol',
+        source: 'ClientDataSource',
+        layout: {
+            'icon-image': iconName,
+            'icon-size': {
+                type: 'exponential',
+                property: property,
+                stops: [
+                    [0, 0],
+                    [1024, 4]
+                ]
+            }
+        },
+        paint: {
+            'icon-color': color
         }
     });
     map.setLayoutProperty(id, 'visibility', 'none');
