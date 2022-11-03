@@ -55,7 +55,23 @@ function getLocations():any {
     return locations;
 }
 
-function addLocations(map: maplibregl.Map) {
+function getClientFeatures(): any {
+    let features: any = [];
+    geocodedClients.forEach((client) => {
+        features.push({
+            type: "Feature",
+            geometry: { type: "Point", coordinates: [client.lon, client.lat] },
+            properties: {
+                "Users": client.Users,
+                "LoggedIn": client.InAdmin + client.TakingCourses + client.TakingTests
+            }
+        });
+
+    });
+    return features;
+}
+
+function addPointsAndDataSources(map: maplibregl.Map) {
     map.on("load", function () {
         drawPoints(
             "mySourceName", // Arbitrary source name
@@ -71,6 +87,7 @@ function addLocations(map: maplibregl.Map) {
                 }
             }
         );
+        addDataSources(map);
     })
 }
 
@@ -79,15 +96,72 @@ const BOSTON = {
     longitude: -71.05674
 };
 
-export async function initializeMap(): Promise<maplibregl.Map> {
+function addDataSources(map: maplibregl.Map) {
+    map.addSource('ClientDataSource', {
+        type: 'geojson',
+        data: {
+            type: "FeatureCollection",
+            features: getClientFeatures()
+        }
+    });
+}
+
+function addLayer(map: maplibregl.Map, id: string, property: string, color: string) {
+    map.addLayer({
+        'id': id,
+        'type': 'circle',
+        'source': 'ClientDataSource',
+        'paint': {
+            'circle-stroke-color': 'white',
+            'circle-stroke-width': 1,
+            'circle-radius': {
+                property: property,
+                type: 'exponential',
+                stops: [
+                    [0, 0],
+                    [1024, 24]
+                ]
+            },
+            'circle-color': color
+        }
+    });
+}
+
+export function showUsers(map: maplibregl.Map) {
+    if (map.getLayer('LoggedIn')) {
+        map.removeLayer('LoggedIn');
+    }
+    if (!map.getLayer('Users')) {
+        addLayer(map, 'Users', 'Users', '#2D4460');
+    }
+}
+
+export function showLoggedInUsers(map: maplibregl.Map) {
+    if (map.getLayer('Users')) {
+        map.removeLayer('Users');
+    }
+    if (!map.getLayer('LoggedIn')) {
+        addLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
+    }
+}
+
+function addMapControls(map: maplibregl.Map) {
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+    map.addControl(new maplibregl.ScaleControl({ unit: 'imperial' }), 'bottom-right');
+}
+
+async function makeMap(): Promise<maplibregl.Map> {
     const map:maplibregl.Map = await createMap({
         container: "map", // An HTML Element or HTML element ID to render the map in https://maplibre.org/maplibre-gl-js-docs/api/map/
         center: [BOSTON.longitude, BOSTON.latitude],
         zoom: 10
     });
-    //const credentials = await Auth.currentCredentials();
-    addLocations(map);
-    map.addControl(new maplibregl.NavigationControl());
-    map.addControl(new maplibregl.ScaleControl({unit: 'imperial'}));
+    return map;
+}
+
+export async function initializeMap(): Promise<maplibregl.Map> {
+    const map: maplibregl.Map = await makeMap();
+    addMapControls(map);
+    addPointsAndDataSources(map);
     return map;
 }
