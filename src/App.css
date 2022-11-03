@@ -25,6 +25,19 @@
   color: white;
 }
 
+.top-navbar {
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+  z-index: 1;
+  width: 100%;
+}
+
+.top-navbar h4 {
+  color: black;
+  opacity: 0.5;
+}
+
 #locations {
   display: inline-block;
 }
@@ -37,8 +50,6 @@ li {
 }
 
 #map {
-  /* The id of the container you passed to createMap */
-  height: 60vh;
-  width: 40vw;
-  margin: auto;
+  height: 100vh;
+  width: 100vw;
 }

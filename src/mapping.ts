@@ -73,5 +73,7 @@ export async function initializeMap(): Promise<maplibregl.Map> {
     });
     //const credentials = await Auth.currentCredentials();
     addLocations(map);
+    map.addControl(new maplibregl.NavigationControl());
+    map.addControl(new maplibregl.ScaleControl({unit: 'imperial'}));
     return map;
 }
