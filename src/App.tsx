@@ -1,15 +1,17 @@
 import "./App.scss";
 import "maplibre-gl/dist/maplibre-gl.css";
-import { useEffect } from "react";
-import { initializeMap, toggleLayerVisibility as toggleLayerVisibility } from "./mapping";
-import { Flex, Heading, View } from "@aws-amplify/ui-react";
-import LayerLegendItem from "./LayerLegendItem";
+import { useEffect, useState } from "react";
+import { initializeMap } from "./mapping";
+import { Flex, Heading } from "@aws-amplify/ui-react";
+import MapLegend from "./MapLegend";
+import maplibregl from "maplibre-gl";
 
 function App() {
-    let map: maplibregl.Map;
+    const [map, setMap] = useState<maplibregl.Map | null>(null);
+
     useEffect(() => {
         async function initMap() {
-            map = await initializeMap();
+            setMap(await initializeMap());
         }
         initMap();
     }, []);
@@ -25,9 +27,8 @@ function App() {
                 wrap='nowrap'
                 gap='1rem'>
                 <Heading level={5}>sLearning Clients</Heading>
-                <LayerLegendItem label='Users' onChange={(check) => toggleLayerVisibility(map, "Users", check)} />
-                <LayerLegendItem label='Logged In Users' onChange={(check) => toggleLayerVisibility(map, "LoggedIn", check)} />
             </Flex>
+            <MapLegend map={map}></MapLegend>
             <div id='map'></div>
         </>
     );

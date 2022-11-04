@@ -24,9 +24,6 @@
   }
 }
 
-.amplify-checkbox__label, .amplify-checkbox__ {
-  color: white;
-}
 
 #locations {
   display: inline-block;
@@ -44,4 +41,15 @@ li {
   top: 32px;
   height: calc(100vh - 32px);
   width: 100vw;
+}
+
+.map-legend {
+  position: absolute;
+  bottom: 4em;
+  right: 10px;
+  z-index: 1;
+  border: 1px solid #2f2f2f;
+  background: white;
+  padding: 1em;
+  opacity: 0.8;
 }
