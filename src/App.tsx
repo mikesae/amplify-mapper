@@ -2,7 +2,7 @@ import "./App.scss";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect, useState } from "react";
 import { initializeMap } from "./mapping";
-import { Flex, Heading } from "@aws-amplify/ui-react";
+import { View, Flex, Heading } from "@aws-amplify/ui-react";
 import MapLegend from "./MapLegend";
 import maplibregl from "maplibre-gl";
 
@@ -26,10 +26,10 @@ function App() {
                 alignContent='flex-start'
                 wrap='nowrap'
                 gap='1rem'>
-                <Heading level={5}>sLearning Clients</Heading>
+                <Heading level={5}>MapHead v1</Heading>
             </Flex>
             <MapLegend map={map}></MapLegend>
-            <div id='map'></div>
+            <View className='map' id='map'></View>
         </>
     );
 }
