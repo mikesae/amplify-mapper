@@ -80,6 +80,7 @@ function addCustomImages(map: maplibregl.Map) {
 
 function addPointsAndDataSources(map: maplibregl.Map) {
     map.on("load", function () {
+        addCustomImages(map);
         drawPoints(
             "mySourceName", // Arbitrary source name
             getLocations(),
@@ -95,11 +96,11 @@ function addPointsAndDataSources(map: maplibregl.Map) {
             }
         );
         addDataSources(map);
-        //addGraduatedSymbolLayer(map, 'Users', 'Users', '#2D4460', 'City small scale/large other capital');
-        //addGraduatedSymbolLayer(map, 'LoggedIn', 'LoggedIn', '#627388', 'City small scale/x large admin2 capital');
+
+        //addGraduatedSymbolLayer(map, 'Users', 'Users', '#2D4460', 'users');
+        //addGraduatedSymbolLayer(map, 'LoggedIn', 'LoggedIn', '#627388', 'users');
         addGraduatedCircleLayer(map, 'Users', 'Users', '#2D4460');
         addGraduatedCircleLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
-        //addCustomImages(map);
     })
 }
 
