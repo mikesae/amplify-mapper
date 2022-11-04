@@ -5,6 +5,7 @@ import { createMap } from "maplibre-gl-js-amplify";
 import { drawPoints } from "maplibre-gl-js-amplify";
 import maplibregl from "maplibre-gl";
 import usersImage from './assets/users.png';
+import clientImage from './assets/hospital.svg';
 
 function getLocationService(credentials: any) {
     return new location({
@@ -72,15 +73,11 @@ function getClientFeatures(): any {
     return features;
 }
 
-function addCustomImages(map: maplibregl.Map) {
-    const image = new Image(980, 736);
-    image.src = usersImage;
-    map.addImage('users', image);
-}
-
 function addPointsAndDataSources(map: maplibregl.Map) {
+    const pointImage = new Image(48, 48);
+    pointImage.src = clientImage;
+
     map.on("load", function () {
-        addCustomImages(map);
         drawPoints(
             "mySourceName", // Arbitrary source name
             getLocations(),
@@ -88,12 +85,13 @@ function addPointsAndDataSources(map: maplibregl.Map) {
             {
                 showCluster: false,
                 unclusteredOptions: {
+                    markerImageElement: pointImage,
                     showMarkerPopup: true
                 },
                 clusterOptions: {
                     showCount: true
                 }
-            }
+            },
         );
         addDataSources(map);
 
@@ -131,7 +129,7 @@ function addGraduatedCircleLayer(map: maplibregl.Map, id: string, property: stri
                 property: property,
                 type: 'exponential',
                 stops: [
-                    [0, 0],
+                    [0, 5],
                     [1024, 24]
                 ]
             },
