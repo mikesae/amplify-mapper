@@ -1,0 +1,47 @@
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.top-navbar {
+  position: absolute;
+  top: 0;
+  background-color: rgb(37, 83, 114);
+  z-index: 1;
+  width: 100%;
+  height: 32px;
+  padding: 0 1em;
+
+  h1, h2, h3, h4, h5, h6 {
+    position: relative;
+    top: 2px;
+    color: white;
+  }
+}
+
+.amplify-checkbox__label, .amplify-checkbox__ {
+  color: white;
+}
+
+#locations {
+  display: inline-block;
+}
+
+li {
+  padding: 5px;
+  margin: 20px;
+  text-align: left;
+  list-style: none;
+}
+
+#map {
+  position: absolute;
+  top: 32px;
+  height: calc(100vh - 32px);
+  width: 100vw;
+}

@@ -1,8 +1,9 @@
-import "./App.css";
+import "./App.scss";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { useEffect } from "react";
-import { initializeMap, showLoggedInUsers, showUsers } from "./mapping";
-import { Flex, Heading, Menu, MenuItem } from "@aws-amplify/ui-react";
+import { initializeMap, toggleLayerVisibility as toggleLayerVisibility } from "./mapping";
+import { Flex, Heading, View } from "@aws-amplify/ui-react";
+import LayerLegendItem from "./LayerLegendItem";
 
 function App() {
     let map: maplibregl.Map;
@@ -23,11 +24,9 @@ function App() {
                 alignContent='flex-start'
                 wrap='nowrap'
                 gap='1rem'>
-                <Menu menuAlign='start' size='small'>
-                    <MenuItem onClick={() => showUsers(map)}>Show Users</MenuItem>
-                    <MenuItem onClick={() => showLoggedInUsers(map)}>Show Logged In Users</MenuItem>
-                </Menu>
-                <Heading level={4}>sLearning Clients</Heading>
+                <Heading level={5}>sLearning Clients</Heading>
+                <LayerLegendItem label='Users' onChange={(check) => toggleLayerVisibility(map, "Users", check)} />
+                <LayerLegendItem label='Logged In Users' onChange={(check) => toggleLayerVisibility(map, "LoggedIn", check)} />
             </Flex>
             <div id='map'></div>
         </>

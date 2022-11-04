@@ -164,14 +164,8 @@ function addGraduatedSymbolLayer(map: maplibregl.Map, id: string, property: stri
     map.setLayoutProperty(id, 'visibility', 'none');
 }
 
-export function showUsers(map: maplibregl.Map) {
-    map.setLayoutProperty('Users', 'visibility', 'visible');
-    map.setLayoutProperty('LoggedIn', 'visibility', 'none');
-}
-
-export function showLoggedInUsers(map: maplibregl.Map) {
-    map.setLayoutProperty('Users', 'visibility', 'none');
-    map.setLayoutProperty('LoggedIn', 'visibility', 'visible');
+export function toggleLayerVisibility(map: maplibregl.Map, layerId: string, show:boolean) {
+    map.setLayoutProperty(layerId, 'visibility', show ? 'visible' : 'none');
 }
 
 function addMapControls(map: maplibregl.Map) {
