@@ -32,7 +32,7 @@ function App() {
                 gap='1rem'>
                 <Heading level={5}>MapHead v1</Heading>
             </Flex>
-            <MapLegend map={map}></MapLegend>
+            {map && <MapLegend map={map}></MapLegend>}
             <View className='map' id='map'></View>
         </>
     );

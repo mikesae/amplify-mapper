@@ -7,7 +7,7 @@ import usersImage from "./assets/users-circle.svg";
 import loggedInImage from "./assets/logged-in-circle.svg";
 
 interface Props {
-    map: maplibregl.Map | null;
+    map: maplibregl.Map;
 }
 
 const MapLegend: FunctionComponent<Props> = ({ map }) => {

@@ -135,7 +135,7 @@ function addGraduatedCircleLayer(map: maplibregl.Map, id: string, property: stri
     map.setLayoutProperty(id, 'visibility', 'none');
 }
 
-export function toggleLayerVisibility(map: maplibregl.Map | null, layerId: string, show:boolean) {
+export function toggleLayerVisibility(map: maplibregl.Map, layerId: string, show:boolean) {
     map?.setLayoutProperty(layerId, 'visibility', show ? 'visible' : 'none');
 }
 
