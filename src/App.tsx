@@ -11,11 +11,11 @@ function App() {
 
     useEffect(() => {
         async function initMap() {
-            if (map === null) {
-                setMap(await initializeMap());
-            }
+            setMap(await initializeMap());
         }
-        initMap();
+        if (map === null) {
+            initMap();
+        }
         // Clean up on unmount
         return () => map?.remove();
     }, [map]);
