@@ -21,10 +21,23 @@
 
 .map-legend {
   position: absolute;
-  bottom: 30px;
-  left: 10px;
+  bottom: 0.5em;
+  left: 0.5em;
   z-index: 1;
   background: white;
   padding: 0.5em 1em;
   opacity: 0.9;
+  // short screens
+  @media only screen and (max-device-width: 700px) and (orientation: portrait) {
+    bottom: 0;
+    .amplify-text {
+      font-size: 0.5em;
+    }
+  }
+  // narrow screens
+  @media only screen and (max-height: 41em) and (orientation: landscape) {
+    .amplify-text {
+        font-size: 0.5em;
+    }
+  }
 }
