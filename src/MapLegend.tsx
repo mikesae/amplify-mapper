@@ -13,7 +13,7 @@ interface Props {
 const MapLegend: FunctionComponent<Props> = ({ map }) => {
     return (
         <View className='map-legend'>
-            <LayerLegendItem label='sLearning Clients' imageSource={clientImage} />
+            <LayerLegendItem label='sLearning Clients' imageSource={clientImage} checked disabled />
             <LayerLegendItem
                 label='Users'
                 imageSource={usersImage}

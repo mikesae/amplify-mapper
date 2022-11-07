@@ -5,9 +5,11 @@ interface Props {
     label: string;
     onChange?: (checked: boolean) => void;
     imageSource?: string;
+    checked?: boolean;
+    disabled?: boolean;
 }
 
-const LayerLegendItem: FunctionComponent<Props> = ({ label, onChange, imageSource }) => {
+const LayerLegendItem: FunctionComponent<Props> = ({ label, onChange, imageSource, checked, disabled }) => {
     function makeLabel(text: string, imageSource?: string) {
         return (
             <>
@@ -17,6 +19,7 @@ const LayerLegendItem: FunctionComponent<Props> = ({ label, onChange, imageSourc
                         src={imageSource}
                         height='24'
                         width='24'
+                        alt=''
                     />
                 )}
                 {text}
@@ -41,7 +44,9 @@ const LayerLegendItem: FunctionComponent<Props> = ({ label, onChange, imageSourc
                 }}
                 label={makeLabel(label, imageSource)}
                 name={""}
-                value={""}></CheckboxField>
+                value={""}
+                checked={checked}
+                disabled={disabled}></CheckboxField>
         </Flex>
     );
 };
