@@ -4,7 +4,6 @@ import geocodedClients from "./data/geocoded-clients.json";
 import { createMap } from "maplibre-gl-js-amplify";
 import { drawPoints } from "maplibre-gl-js-amplify";
 import maplibregl from "maplibre-gl";
-import usersImage from './assets/users.png';
 import clientImage from './assets/hospital.svg';
 
 function getLocationService(credentials: any) {
@@ -94,9 +93,6 @@ function addPointsAndDataSources(map: maplibregl.Map) {
             },
         );
         addDataSources(map);
-
-        //addGraduatedSymbolLayer(map, 'Users', 'Users', '#2D4460', 'users');
-        //addGraduatedSymbolLayer(map, 'LoggedIn', 'LoggedIn', '#627388', 'users');
         addGraduatedCircleLayer(map, 'Users', 'Users', '#2D4460');
         addGraduatedCircleLayer(map, 'LoggedIn', 'LoggedIn', '#627388');
     })
@@ -134,29 +130,6 @@ function addGraduatedCircleLayer(map: maplibregl.Map, id: string, property: stri
                 ]
             },
             'circle-color': color
-        }
-    });
-    map.setLayoutProperty(id, 'visibility', 'none');
-}
-
-function addGraduatedSymbolLayer(map: maplibregl.Map, id: string, property: string, color: string, iconName: string) {
-    map.addLayer({
-        id: id,
-        type: 'symbol',
-        source: 'ClientDataSource',
-        layout: {
-            'icon-image': iconName,
-            'icon-size': {
-                type: 'exponential',
-                property: property,
-                stops: [
-                    [0, 0],
-                    [1024, 4]
-                ]
-            }
-        },
-        paint: {
-            'icon-color': color
         }
     });
     map.setLayoutProperty(id, 'visibility', 'none');
