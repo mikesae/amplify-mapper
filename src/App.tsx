@@ -1,13 +1,13 @@
-import "./App.scss";
-import "maplibre-gl/dist/maplibre-gl.css";
-import { useEffect, useState } from "react";
-import { initializeMap } from "./mapping";
-import { View, Flex, Heading } from "@aws-amplify/ui-react";
-import MapLegend from "./MapLegend";
+import { Flex, Heading, View } from "@aws-amplify/ui-react";
 import maplibregl from "maplibre-gl";
+import "maplibre-gl/dist/maplibre-gl.css";
+import React, { useEffect, useState } from "react";
+import "./App.scss";
+import MapLegend from "./MapLegend";
+import { initializeMap } from "./mapping";
 
 function App() {
-    const [map, setMap] = useState<maplibregl.Map | null>(null);
+    const [map, setMap] = useState<maplibregl.Map | null | any>(null);
 
     useEffect(() => {
         async function initMap() {
@@ -23,6 +23,7 @@ function App() {
     return (
         <>
             <Flex
+                placeholder='top'
                 className='top-navbar'
                 direction='row'
                 justifyContent='flex-start'
@@ -30,7 +31,7 @@ function App() {
                 alignContent='flex-start'
                 wrap='nowrap'
                 gap='1rem'>
-                <Heading level={5}>MapHead v1</Heading>
+                <Heading placeholder='heading' level={5}>MapHead v1</Heading>
             </Flex>
             {map && <MapLegend map={map}></MapLegend>}
             <View className='map' id='map'></View>

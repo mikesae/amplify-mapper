@@ -1,5 +1,5 @@
 import { CheckboxField, Flex } from "@aws-amplify/ui-react";
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
 
 interface Props {
     label: string;
@@ -29,6 +29,7 @@ const LayerLegendItem: FunctionComponent<Props> = ({ label, onChange, imageSourc
 
     return (
         <Flex
+            placeholder='row'
             direction='row'
             justifyContent='flex-start'
             alignItems='stretch'
@@ -46,7 +47,8 @@ const LayerLegendItem: FunctionComponent<Props> = ({ label, onChange, imageSourc
                 name={""}
                 value={""}
                 checked={checked}
-                disabled={disabled}></CheckboxField>
+                disabled={disabled}
+                crossOrigin=''></CheckboxField>
         </Flex>
     );
 };

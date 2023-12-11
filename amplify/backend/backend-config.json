@@ -27,6 +27,22 @@
   },
   "geo": {
     "mapfe80c8d2": {
+      "isDefault": false,
+      "providerPlugin": "awscloudformation",
+      "service": "Map",
+      "mapStyle": "VectorEsriStreets",
+      "accessType": "AuthorizedAndGuestUsers",
+      "dependsOn": [
+        {
+          "category": "auth",
+          "resourceName": "amplifymap0bc7ed74",
+          "attributes": [
+            "UserPoolId"
+          ]
+        }
+      ]
+    },
+    "mapf6ec50bb": {
       "isDefault": true,
       "providerPlugin": "awscloudformation",
       "service": "Map",
