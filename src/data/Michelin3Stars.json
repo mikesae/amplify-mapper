@@ -1,0 +1,189 @@
+[
+  {
+    "Restaurant": "Chef's Table at Brooklyn Fare",
+    "Chef(s)": "Cesar Ramirez",
+    "Cuisine": "Seafood, Omakase-style",
+    "Location": "New York City",
+    "FirstStar": "",
+    "SecondStar": 2011,
+    "ThirdStar": "2012-2022",
+    "Current": "",
+    "ZipCode": 10018
+  },
+  {
+    "Restaurant": "Daniel",
+    "Chef(s)": "Daniel Boulud",
+    "Cuisine": "French",
+    "Location": "New York City",
+    "FirstStar": "",
+    "SecondStar": "2006-2010, 2016-present",
+    "ThirdStar": "2011-2015",
+    "Current": 2,
+    "ZipCode": 10065
+  },
+  {
+    "Restaurant": "Jean-Georges",
+    "Chef(s)": "Mark LaPico",
+    "Cuisine": "French",
+    "Location": "New York City",
+    "FirstStar": "",
+    "SecondStar": "2018-present",
+    "ThirdStar": "2006-2017",
+    "Current": 2,
+    "ZipCode": 10023
+  },
+  {
+    "Restaurant": "Saison",
+    "Chef(s)": "Richard Lee",
+    "Cuisine": "New American",
+    "Location": "San Francisco",
+    "FirstStar": 2011,
+    "SecondStar": "2012-2014, 2019-2023",
+    "ThirdStar": "2015-2018",
+    "Current": 2,
+    "ZipCode": 94107
+  },
+  {
+    "Restaurant": "Alinea",
+    "Chef(s)": "Grant Achatz, Doug Alley",
+    "Cuisine": "Molecular Gastronomy",
+    "Location": "Chicago",
+    "FirstStar": "",
+    "SecondStar": "",
+    "ThirdStar": "2011-present",
+    "Current": 3,
+    "ZipCode": 60614
+  },
+  {
+    "Restaurant": "SingleThread",
+    "Chef(s)": "Kyle Connaughton",
+    "Cuisine": "Japanese and New American",
+    "Location": "Healdsburg, California",
+    "FirstStar": "",
+    "SecondStar": 2018,
+    "ThirdStar": "2019-present",
+    "Current": 3,
+    "ZipCode": 95448
+  },
+  {
+    "Restaurant": "Le Bernardin",
+    "Chef(s)": "Eric Ripert,Chris Muller,Eric Gestel",
+    "Cuisine": "French",
+    "Location": "New York City",
+    "FirstStar": "",
+    "SecondStar": "",
+    "ThirdStar": "2006-present",
+    "Current": 3,
+    "ZipCode": 10019
+  },
+  {
+    "Restaurant": "Per Se",
+    "Chef(s)": "Thomas Keller, Corey Chow",
+    "Cuisine": "New American",
+    "Location": "New York City",
+    "FirstStar": "",
+    "SecondStar": "",
+    "ThirdStar": "2006-present",
+    "Current": 3,
+    "ZipCode": 10019
+  },
+  {
+    "Restaurant": "Masa",
+    "Chef(s)": "Masa Takayama",
+    "Cuisine": "Japanese and sushi",
+    "Location": "New York City",
+    "FirstStar": "",
+    "SecondStar": "2006-2008",
+    "ThirdStar": "2009-present",
+    "Current": 3,
+    "ZipCode": 10019
+  },
+  {
+    "Restaurant": "Eleven Madison Park",
+    "Chef(s)": "Daniel Humm, Brian Lockwood",
+    "Cuisine": "Plant-based Contemporary American",
+    "Location": "New York City",
+    "FirstStar": "2010-2011",
+    "SecondStar": "",
+    "ThirdStar": "2012-present",
+    "Current": 3,
+    "ZipCode": 10010
+  },
+  {
+    "Restaurant": "Addison",
+    "Chef(s)": "William Bradley",
+    "Cuisine": "California",
+    "Location": "San Diego",
+    "FirstStar": 2019,
+    "SecondStar": 2021,
+    "ThirdStar": "2022-present",
+    "Current": 3,
+    "ZipCode": 92130
+  },
+  {
+    "Restaurant": "Atelier Crenn",
+    "Chef(s)": "Dominique Crenn",
+    "Cuisine": "French",
+    "Location": "San Francisco",
+    "FirstStar": 2012,
+    "SecondStar": "2013-2018",
+    "ThirdStar": "2019-present",
+    "Current": 3,
+    "ZipCode": 94123
+  },
+  {
+    "Restaurant": "Benu",
+    "Chef(s)": "Corey Lee, Brandon Rodgers",
+    "Cuisine": "Asian-inspired New American",
+    "Location": "San Francisco",
+    "FirstStar": "",
+    "SecondStar": "2012-2014",
+    "ThirdStar": "2015-present",
+    "Current": 3,
+    "ZipCode": 94105
+  },
+  {
+    "Restaurant": "Quince",
+    "Chef(s)": "Michael Tusk, Neil Stetz",
+    "Cuisine": "Contemporary Californian & Italian",
+    "Location": "San Francisco",
+    "FirstStar": "2006-2013",
+    "SecondStar": "2014-2016",
+    "ThirdStar": "2017-present",
+    "Current": 3,
+    "ZipCode": 94133
+  },
+  {
+    "Restaurant": "The Inn at Little Washington",
+    "Chef(s)": "Patrick O'Connell",
+    "Cuisine": "Nouveau American",
+    "Location": "Washington, Virginia",
+    "FirstStar": "",
+    "SecondStar": "2017-2018",
+    "ThirdStar": "2019-present",
+    "Current": 3,
+    "ZipCode": 22747
+  },
+  {
+    "Restaurant": "The French Laundry",
+    "Chef(s)": "Thomas Keller, David Breeden",
+    "Cuisine": "French with California influences",
+    "Location": "Yountville, California",
+    "FirstStar": "",
+    "SecondStar": "",
+    "ThirdStar": "2007-present",
+    "Current": 3,
+    "ZipCode": 94599
+  },
+  {
+    "Restaurant": "Smyth",
+    "Chef(s)": "John Shields",
+    "Cuisine": "Contemporary",
+    "Location": "Chicago",
+    "FirstStar": 2017,
+    "SecondStar": "2018-2022",
+    "ThirdStar": 2023,
+    "Current": 3,
+    "ZipCode": 60607
+  }
+]
