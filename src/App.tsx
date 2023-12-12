@@ -31,7 +31,7 @@ function App() {
                 alignContent='flex-start'
                 wrap='nowrap'
                 gap='1rem'>
-                <Heading placeholder='heading' level={5}>MapHead v1</Heading>
+                <Heading placeholder='heading' level={5}>MapHead v2</Heading>
             </Flex>
             {map && <MapLegend map={map}></MapLegend>}
             <View className='map' id='map'></View>
