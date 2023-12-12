@@ -1,21 +1,29 @@
+body {
+  font-family: sans-serif;
+}
+
+$navbar-height: 2em;
+
 .top-navbar {
   position: absolute;
   top: 0;
   background-color: rgb(37, 83, 114);
   z-index: 1;
   width: 100%;
-  height: 32px;
-  padding: 0 1em;
+  height: $navbar-height;
+  text-align: center;
 
-  h1, h2, h3, h4, h5, h6 {
+  h5 {
+    font-size: 1em;
+    margin-top: 0.5em;
     color: white;
   }
 }
 
 .map {
   position: absolute;
-  top: 32px;
-  height: calc(100vh - 32px);
+  top: $navbar-height;
+  height: calc(100vh - 2em);
   width: 100vw;
 }
 
@@ -27,6 +35,8 @@
   background: white;
   padding: 0.5em 1em;
   opacity: 0.9;
+  font-size: 0.75em;
+
   // short screens
   @media only screen and (max-device-width: 700px) and (orientation: portrait) {
     bottom: 0;
@@ -37,7 +47,14 @@
   // narrow screens
   @media only screen and (max-height: 41em) and (orientation: landscape) {
     .amplify-text {
-        font-size: 0.5em;
+      font-size: 0.5em;
+    }
+  }
+
+  // Dunno why but amplify checkbox fields have checkmarks at the end. This hides them.
+  .amplify-checkboxfield {
+    .amplify-checkbox__button {
+      display: none;
     }
   }
 }
